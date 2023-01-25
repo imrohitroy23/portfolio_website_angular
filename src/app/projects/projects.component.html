@@ -1,0 +1,33 @@
+<div class="container" id="portfolio">
+  <div class="container">
+    <p class="section-subtitle">Projects</p>
+
+    <h2 class="h2 section-title">My Amazing Works</h2>
+
+    <p class="section-text">
+      These are the some projects that I have worked on
+    </p>
+
+    <ul class="portfolio-list" *ngFor="let project of projects">
+      <li>
+          <div class="contact-card">
+
+          <div class="card-content">
+            <p class="card-subtitle">{{ project.title }}</p>
+
+            <h3 class="h3 card-title">{{ project.technologies }}</h3>
+            <h3 class="hero-text">{{ project.description }}</h3>
+
+            <!-- <span class="btn-link">
+              <span>View Project</span> -->
+              <!--
+              <ion-icon name="arrow-forward"></ion-icon> -->
+            <!-- </span> -->
+          </div>
+        </div>
+
+
+      </li>
+    </ul>
+  </div>
+</div>
