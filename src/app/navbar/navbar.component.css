@@ -13,8 +13,9 @@
   z-index: 9;
 }
 .pic{
+  margin-right: 30px;
   text-transform: capitalize;
-  font-weight: 500;
+
 
 }
 .links-container{

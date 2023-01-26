@@ -239,6 +239,7 @@ body {
 
 .hero {
   background-repeat: no-repeat;
+  background-image: url("./assets/hero-bg.jpg");
   background-size: cover;
   background-position: center;
   padding-block: 100px var(--section-padding);
@@ -265,19 +266,18 @@ body {
 
 .about :is(.section-title, .section-subtitle, .section-text) {
   text-align: left;
+  font-family: var(--ff-barlow);
 }
 
 .about :is(.section-title, .section-text) {
   margin-block-end: 30px;
+  font-family: var(--ff-barlow);
 }
 
 /* -----------------------------------*\
   #PORTFOLIO
 \*----------------------------------- */
 
-.portfolio .section-title {
-  margin-block-end: 18px;
-}
 
 .portfolio .section-text {
   margin-block-end: 80px;
