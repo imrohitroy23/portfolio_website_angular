@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+import {MatToolbarModule} from '@angular/material/toolbar';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BannerComponent } from './banner/banner/banner.component';
@@ -9,8 +9,9 @@ import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { SkillsComponent } from './skills/skills.component';
 import { NavbarComponent } from './navbar/navbar.component';
-
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatMenuModule} from '@angular/material/menu';
+import {MatIconModule} from '@angular/material/icon'
 
 @NgModule({
   declarations: [
@@ -22,11 +23,14 @@ import { NavbarComponent } from './navbar/navbar.component';
     SkillsComponent,
     NavbarComponent,
 
+
   ],
   imports: [
     BrowserModule,
-
-    AppRoutingModule
+    MatToolbarModule,MatMenuModule,
+   MatIconModule,
+    AppRoutingModule,
+     BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

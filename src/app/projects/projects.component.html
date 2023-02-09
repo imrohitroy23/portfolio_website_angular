@@ -1,33 +1,44 @@
-<div class="container" id="portfolio">
-  <div class="container">
-    <p class="section-subtitle">Projects</p>
+ <section id="portfolio">
 
-    <h2 class="h2 section-title">My Amazing Works</h2>
+  <p class="section-subtitle">My Projects</p>
 
-    <p class="section-text">
-      These are the some projects that I have worked on
-    </p>
-
-    <ul class="portfolio-list" *ngFor="let project of projects">
-      <li>
-          <div class="contact-card">
-
-          <div class="card-content">
-            <p class="card-subtitle">{{ project.title }}</p>
-
-            <h3 class="h3 card-title">{{ project.technologies }}</h3>
-            <h3 class="hero-text">{{ project.description }}</h3>
-
-            <!-- <span class="btn-link">
-              <span>View Project</span> -->
-              <!--
-              <ion-icon name="arrow-forward"></ion-icon> -->
-            <!-- </span> -->
-          </div>
+  <h2 class="h2 section-title">I love Developing my Skills Regularly</h2>
+    <div class="container" *ngFor="let q of projects">
+      <div class="contact-card">
+        <div class="card-body">
+      <div class="card-content">
+        <div class="card-subtitle">
+          {{q.title}}
+        </div>
+        <div class="card-title">
+          {{q.technologies}}
         </div>
 
+      <div class="card-title">
+        {{q.description}}
+      </div>
 
-      </li>
-    </ul>
-  </div>
+      </div>
+    </div>
+      </div>
+      <br>
+    </div>
+
+  </section>
+<!--<div class="container">
+  <ul class="portfolio-list" *ngFor="let project of projects">
+    <li>
+        <div class="contact-card">
+
+        <div class="card-content">
+          <p class="card-subtitle">{{ project.title }}</p>
+
+          <h3 class="h3 card-title">{{ project.technologies }}</h3>
+          <h3 class="hero-text">{{ project.description }}</h3>
+        </div>
+        <br>
+      </div>
+    </li>
+  </ul>
 </div>
+</section> -->

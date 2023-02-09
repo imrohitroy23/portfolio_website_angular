@@ -2,11 +2,9 @@
   <div class="container">
     <p class="section-subtitle">My Skills</p>
 
-    <h2 class="h2 section-title">I love Developing my Skills Regularly</h2>
 
-    <p class="section-text">
-      These are the skills that I have worked with
-    </p>
+
+       <div class="contact-card">
     <div class="container" *ngFor="let q of skills">
       <h1 class="mt-5">{{q.name}}</h1>
       {{q.level}}
@@ -21,6 +19,7 @@
           aria-valuemax="100"
         ></div>
       </div>
+    </div>
     </div>
   </div>
 </section>
