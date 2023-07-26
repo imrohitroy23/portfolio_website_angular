@@ -11,7 +11,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatMenuModule} from '@angular/material/menu';
-import {MatIconModule} from '@angular/material/icon'
+import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
   declarations: [
@@ -22,6 +22,7 @@ import {MatIconModule} from '@angular/material/icon'
     ContactComponent,
     SkillsComponent,
     NavbarComponent,
+
 
 
   ],

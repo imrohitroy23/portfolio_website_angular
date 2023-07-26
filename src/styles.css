@@ -12,19 +12,17 @@
   --rufous: hsl(2, 85%, 35%);
   --black: hsl(0, 0%, 0%);
   --white: hsl(0, 0%, 100%);
-  --section-padding: 60px;
+
 }
 
-ion-icon {
-  pointer-events: none;
-  color: var(--white);
-}
+
 
 button,
 input,
 textarea {
   background: none;
   border: none;
+
   font: inherit;
 }
 
@@ -80,8 +78,7 @@ body {
 
 
 .section-subtitle {
-  color: var(--orange-soda);
-
+  color: hsl(7, 96%, 61%);
   font-size:1.5rem;
   text-align: center;
 }
@@ -104,7 +101,7 @@ body {
   background-image: url("./assets/hero-bg.jpg");
   background-size: cover;
   background-position: center;
-  padding-block: 100px var(--section-padding);
+  padding-block: 100px 60px;
   min-height: 100vh;
   display: grid;
   place-items: center;
@@ -125,22 +122,13 @@ body {
 
 
 .contact-card {
-  background-color: var(--midnight-blue);
+  background-color:rgb(20, 69, 138);
   padding: 50px 25px;
-  border-radius: var(--radius-20);
+  border-radius: 12px
+
 }
 
-.contact-card .card-subtitle {
-  color: var(--orange-soda);
-  font-family: var(--ff-barlow);
-  font-size: var(--fs-4);
-  font-weight: var(--fw-600);
-}
 
-.contact .section-title {
-  text-align: left;
-  margin-block-end: 30px;
-}
 
 .contact-form {
   margin-block-end: 50px;
@@ -177,32 +165,10 @@ textarea.contact-input {
   transition: var(--transition-2);
 }
 
-
-.contact-item {
-  display: flex;
-  align-items: center;
-  gap: 15px;
+html{
+  scroll-behavior:smooth;
 }
 
-.contact-item:not(:last-child) {
-  margin-block-end: 20px;
-}
 
-.contact-icon {
-  background-color: var(--glaucous);
-  font-size: 2.4rem;
-  padding: 20px;
-  border-radius: 50%;
-}
 
-.contact-item-title {
-  color: var(--white);
-  font-family: var(--ff-barlow);
-  font-size: var(--fs-4);
-  font-weight: var(--fw-600);
-}
-
-.contact-item-link {
-  transition: var(--transition-1);
-}
 
