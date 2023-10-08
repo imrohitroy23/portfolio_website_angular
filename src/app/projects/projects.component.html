@@ -1,46 +1,45 @@
- <section id="portfolio">
 
-  <p class="section-subtitle">My Projects</p>
+<section id="pro" class="">
+  <h2 class="h2 text-center" style="color: rgb(255, 255, 255);">Projects</h2>
+  <div class="container px-5 ">
 
-  <h2 class="h2 section-title">I love Developing my Skills Regularly</h2>
-    <div class="container" *ngFor="let q of projects">
-      <div class="contact-card">
-        <div class="card-body">
-      <div class="card-content">
-        <div class="card-subtitle">
-          {{q.title}}
-        </div>
-        <div class="card-title">
-          <span style="color: hsl(7, 96%, 61%);">
-          {{q.technologies}}
-</span>
-        </div>
-
-      <div class="card-title">
-        {{q.description}}
+      <div class="row gx-5 justify-content-center">
+          <div class="col-lg-11 col-xl-9 col-xxl-8">
+              <!-- Project Card 1-->
+              <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+                  <div class="card-body p-0">
+                      <div class="d-flex align-items-center">
+                          <div class="p-5">
+                              <h1 class="theme-color">Interactive Online Quiz App</h1>
+                              <div class="small text-muted">August 2023 - September 2023</div>
+                              <p>• Created an interactive online quiz app with AngularJS and Spring Boot, featuring JWT-based authentication for security.
+                              <br>
+                                • The application facilitated quizzes for over 50 users with real-time result tracking, using MySQL as the database.</p>
+                          </div>
+                          <!-- <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." /> -->
+                          <a class="px-btn theme mr-2" href="https://quizpoint.netlify.app/">Visit</a>
+                      </div>
+                  </div>
+              </div>
+              <!-- Project Card 2-->
+              <div class="card overflow-hidden shadow rounded-4 border-0">
+                  <div class="card-body p-0">
+                      <div class="d-flex align-items-center">
+                          <div class="p-5">
+                            <h1 class="theme-color">Online Medicine E-commerce</h1>
+                            <div class="small text-muted">August 2023 - September 2023</div>
+                              <p>
+                                • Built a user-friendly medical store website with AngularJS and Spring Boot, enabling seamless medicine ordering and secure
+                                authentication via JWT.<br>
+                                • Incorporated a search functionality with a database of over 100 medicines stored in MySQL.</p>
+                          </div>
+                          <!-- <img class="img-fluid" src="https://dummyimage.com/300x400/343a40/6c757d" alt="..." /> -->
+                          <a class="px-btn theme mr-2" href="https://onlinemed.netlify.app/">Visit</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
       </div>
-      <a href={{q.link}} target="_blank"><button  class="btn btn-danger">{{q.button}}</button></a>
-      </div>
-    </div>
-      </div>
-      <br>
-    </div>
-
-  </section>
-<!--<div class="container">
-  <ul class="portfolio-list" *ngFor="let project of projects">
-    <li>
-        <div class="contact-card">
-
-        <div class="card-content">
-          <p class="card-subtitle">{{ project.title }}</p>
-
-          <h3 class="h3 card-title">{{ project.technologies }}</h3>
-          <h3 class="hero-text">{{ project.description }}</h3>
-        </div>
-        <br>
-      </div>
-    </li>
-  </ul>
-</div>
-</section> -->
+  </div>
+  <br>
+</section>

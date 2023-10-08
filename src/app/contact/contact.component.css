@@ -1,0 +1,109 @@
+
+/* contact section styling */
+.contact .title::after {
+  background: #111;
+  content: "get in touch";
+}
+.contact .contact-content .column {
+  width: calc(50% - 30px);
+}
+.contact .left .text {
+  margin-top: 20px;
+}
+.contact .contact-content .left .text {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.contact .contact-content .left p {
+  text-align: justify;
+}
+.contact .contact-content .left .text1 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.contact .contact-content .left .icons {
+  margin: 10px 0;
+}
+.contact .contact-content .row {
+  display: flex;
+  height: 65px;
+  align-items: center;
+}
+.contact .contact-content .row i {
+  font-size: 25px;
+  color: crimson;
+}
+.contact .contact-content .row .email-icon {
+  margin-left: -7px;
+}
+.contact .contact-content .row .info {
+  margin-left: 30px;
+  justify-content: left;
+  float: left;
+}
+.contact .contact-content .info .head {
+  font-weight: 600;
+}
+.contact .contact-content .info .sub-title {
+  color: #fff;
+}
+.contact .right .text {
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+.contact .right form .fields {
+  display: flex;
+}
+.contact .right form .fields,
+.contact .right form .field {
+  height: 45px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.contact .right form .name {
+  margin-right: 10px;
+}
+.contact .right form .email {
+  margin-left: 10px;
+}
+.contact .right form .textarea {
+  height: 160px;
+  width: 100%;
+}
+.contact .right form .field input,
+.contact .right form .textarea textarea {
+  height: 100%;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+  outline: none;
+  padding: 0 15px;
+  font-size: 15px;
+
+}
+.contact .right form .textarea textarea {
+  padding-top: 10px;
+}
+.contact .right form .button {
+  height: 47px;
+  width: 220px;
+}
+.contact .right form .button button {
+  height: 100%;
+  width: 100%;
+  border: 2px solid crimson;
+  background: crimson;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.contact .right form .button button:hover {
+  color: #fff;
+  background: none;
+}

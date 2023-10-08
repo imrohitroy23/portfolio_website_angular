@@ -1,11 +1,11 @@
-import { Component } from '@angular/core'
+import { Component } from '@angular/core';
 import emailjs, { EmailJSResponseStatus } from '@emailjs/browser'
 import Swal from 'sweetalert2'
 
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.css'],
+  styleUrls: ['./contact.component.css']
 })
 export class ContactComponent {
   public sendEmail(e: Event) {

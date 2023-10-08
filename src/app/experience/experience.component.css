@@ -1,3 +1,9 @@
+.theme-color {
+  color: #fe4f6c;
+  font-weight: 500px;
+
+  font-size: large;
+}
 #pro{
   background-color: rgb(0, 0, 0);
 }

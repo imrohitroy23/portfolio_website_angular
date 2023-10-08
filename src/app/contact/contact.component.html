@@ -1,27 +1,64 @@
-<section class="section contact" id="contact">
-  <div class="container">
-    <p class="section-subtitle">Contact Me</p>
-    <h2 class="h2 text-center">Drop Me a Mail</h2>
+<!--
+
     <div class="contact-card">
-
-
-
       <div class="container text-center">
-
-        <form action=""  (submit)="sendEmail($event)">
-
-          <input type="text" name="user_name" placeholder="Name" required class="contact-input">
-
-          <input type="email" name="user_email" placeholder="Email" required class="contact-input">
-
-          <textarea name="message" placeholder="Message" required class="contact-input"></textarea>
-
-          <!-- <button type="submit" class="btn-submit">Submit Message</button> -->
-          <button type="submit" class="btn btn-danger ">Send</button>
+        <form action="" (submit)="sendEmail($event)">
+          <input
+            type="text"
+            name="user_name"
+            placeholder="Name"
+            required
+            class="contact-input"
+          />
+          <input
+            type="email"
+            name="user_email"
+            placeholder="Email"
+            required
+            class="contact-input"
+          />
+          <textarea
+            name="message"
+            placeholder="Message"
+            required
+            class="contact-input"
+          ></textarea>
+          <button type="submit" class="btn btn-danger">Send</button>
         </form>
       </div>
+    </div> -->
 
-    </div>
+
+
+  <section style="background-color: black;" class="section contact" id="contact">
+    <h2 class="h2 text-center " style="color: aliceblue;">Contact Me</h2>
+    <br>
+    <div class="container ">
+<div class="column right">
+
+  <form action="" (submit)="sendEmail($event)">
+     <div class="fields mt-5">
+        <div class="field name">
+           <input  type="text"
+           name="user_name"
+           placeholder="Name" required>
+        </div>
+        <div class="field email">
+           <input  type="email"
+           name="user_email"
+           placeholder="Email" required>
+        </div>
+     </div>
+
+     <div class="field textarea">
+        <textarea cols="30" name="message"
+        placeholder="Write your Message" required></textarea>
+     </div>
+     <div class="button">
+      <button type="submit" class="btn btn-danger">Send</button>
+     </div>
+  </form>
+</div>
+</div>
 <br>
-  </div>
 </section>
